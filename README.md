@@ -24,26 +24,17 @@ The dataset contains customer information such as:
 
 <img width="682" height="692" alt="image" src="https://github.com/user-attachments/assets/9a42b20d-f0c8-47ba-9275-f528a04b0dbb" />
 
+from this information, i filter the data based on it datatype 
+
 cleaning process:
 
 <img width="1897" height="200" alt="image" src="https://github.com/user-attachments/assets/0cd0a347-9647-49be-bf07-424af69dc1f7" />
 
-
+after that i replace the empty cell with zero value (we can also do interpolarization method to find the missing data, but i didn't do that in this exercise
+coz i thought it may take sometime. so, i went to navie approach here)
 ---
 
 ## 3. Data Cleaning and Preparation
-
-The first step was to make the raw table usable.
-
-### Cleaning
-
-The cleaning process included:
-
-1. Loading the raw CSV.
-2. Removing duplicate rows.
-3. Handling blank/missing values in the dataset.
-4. Removing `customerID` because it identifies a customer but does not provide useful predictive information.
-5. Separating the input features from the target.
 
 We removed:
 
@@ -57,7 +48,9 @@ leaving:
 7,010 customers
 ```
 
-The important point is that cleaning is not just about making the table look nice. The goal is to make sure the information going into the model represents meaningful features rather than identifiers, duplicated observations, or invalid values.
+after that i seperate the training data and target data into two different dataframe
+
+here, what i mean by traning data is the dataframe without chunk column in it and target data is chunk column only
 
 ---
 
@@ -79,23 +72,8 @@ y → Churn
 
 The data is then split into training, validation, and test sets.
 
-```text
-                Customers
-                    │
-          ┌─────────┼─────────┐
-          ↓         ↓         ↓
-       Training  Validation   Test
-        60%         20%       20%
-       4206        1402       1402
-```
+<img width="602" height="151" alt="image" src="https://github.com/user-attachments/assets/38a0e673-6bda-49ca-9898-db87205f6937" />
 
-The split is stratified so that the churn proportion remains approximately the same in each set.
-
-```text
-Train       26.51% churn
-Validation  26.46% churn
-Test        26.46% churn
-```
 
 The preprocessing is fitted only on the training data. Validation and test data are transformed using the already-fitted preprocessing steps.
 
@@ -105,63 +83,9 @@ This prevents information from the validation/test sets leaking into the trainin
 
 ## 5. Converting the Table into a Numerical Representation
 
-A machine-learning model needs a numerical representation.
+now, i convert the 60 % of train data that seperate from dataset into numerical representation
 
-The original table contains different kinds of information, so the columns are separated into numerical and categorical features.
-
-### Numerical features
-
-Examples:
-
-```text
-tenure
-MonthlyCharges
-TotalCharges
-```
-
-These are standardized using `StandardScaler`.
-
-Conceptually:
-
-$$x' = \frac{x-\mu}{\sigma}$$
-
-This puts numerical variables onto a comparable scale, which is particularly useful for Logistic Regression.
-
-### Categorical features
-
-Examples:
-
-```text
-Contract
-InternetService
-PaymentMethod
-```
-
-These cannot simply be treated as ordinary numbers because categories do not have a natural numerical ordering.
-
-So they are converted using **one-hot encoding**.
-
-For example:
-
-```text
-Contract
-
-Month-to-month
-One year
-Two year
-```
-
-becomes separate numerical indicators.
-
-After preprocessing:
-
-```text
-X_train shape = (4206, 30)
-X_val shape   = (1402, 30)
-X_test shape  = (1402, 30)
-```
-
-So the original customer table has now become a higher-dimensional numerical matrix.
+like i taken numerical datatype object and standard scaling. then used one-hotencoding on categroical data
 
 ---
 
@@ -189,57 +113,13 @@ The model learns a parameter for each feature.
 
 Some learned coefficients from the baseline model were:
 
-```text
-Positive:
-InternetService_Fiber optic     +0.8278
-TotalCharges                    +0.7589
-PaperlessBilling_Yes            +0.3515
-PaymentMethod_Electronic check  +0.3205
-StreamingTV_Yes                 +0.2966
-
-Negative:
-OnlineSecurity_Yes              -0.3602
-PhoneService_Yes                -0.5154
-Contract_One year               -0.6093
-Contract_Two year               -1.2548
-tenure                          -1.5153
-```
-
-These coefficients describe how the fitted model uses the features. They should be interpreted as model associations, not as proof that a feature causes churn.
+<img width="525" height="235" alt="image" src="https://github.com/user-attachments/assets/50719d95-ffcf-4d6e-bec4-05cfec4f854b" />
 
 ---
 
 ## 7. Validation Results
 
-At the default classification threshold of `0.50`, the Logistic Regression model produced:
-
-| Metric | Validation |
-|---|---:|
-| ROC-AUC | 0.8403 |
-| PR-AUC | 0.6607 |
-| Accuracy | 0.7981 |
-| Precision | 0.6419 |
-| Recall | 0.5364 |
-| F1 | 0.5844 |
-
-Confusion matrix:
-
-```text
-                    Predicted
-                 No Churn   Churn
-Actual
-No Churn            920      111
-Churn               172      199
-```
-
-So:
-
-```text
-TN = 920
-FP = 111
-FN = 172
-TP = 199
-```
+<img width="505" height="475" alt="image" src="https://github.com/user-attachments/assets/b9c88ecd-b6b7-49a7-86e1-7f1bbf612792" />
 
 Accuracy alone was not used as the main measure because the dataset is imbalanced: only about 26.5% of customers churn.
 
