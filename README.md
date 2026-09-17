@@ -126,7 +126,7 @@ Accuracy alone was not used as the main measure because the dataset is imbalance
 
 ---
 
-## 12. Project Structure
+## 8. Project Structure
 
 ```text
 ACM-SIG-AI-TELCO-CHURN/
@@ -180,7 +180,7 @@ ACM-SIG-AI-TELCO-CHURN/
 
 ---
 
-## 13. Visual Results
+## 9. Visual Results
 
 ### Data → Numerical Representation
 
