@@ -1,72 +1,10 @@
 # ACM SIG AI — Telco Customer Churn
 
 A machine-learning project built for the **ACM SIG AI recruitment task** using the IBM Telco Customer Churn dataset.
-
-The main idea of this project was not just to train a model, but to understand what is actually happening underneath the machine-learning pipeline.
-
----
-
-## 1. How I Understand Machine Learning
-
-The way I approached ML changed while doing this project.
-
-At first, ML looked like:
-
-```text
-Data → Library → Model → Prediction
-```
-
-But after working through the problem, I understood it more as **mathematical approximation**.
-
-We start with something from reality and represent it as data. Then we convert that data into a numerical form that a mathematical model can work with.
-
-The learning process is roughly:
-
-```text
-Reality
-   ↓
-Data
-   ↓
-Clean + Structure
-   ↓
-Numerical Representation
-   ↓
-Choose a mathematical model
-   ↓
-Initial parameters
-   ↓
-Prediction
-   ↓
-Compare with the real target
-   ↓
-Calculate error / loss
-   ↓
-Update parameters
-   ↓
-Repeat
-   ↓
-Learned approximation
-   ↓
-Prediction on unseen data
-```
-
-The model is not learning "reality" itself. It is finding a mathematical approximation of the relationship that exists in the observed data.
-
-For Logistic Regression, the core mathematical idea is:
-
-$$z = Xw + b$$
-
-where `X` is the feature matrix, `w` is the vector of learned parameters, and `b` is the bias.
-
-The result is converted into a probability using the sigmoid function:
-
-$$p = \frac{1}{1+e^{-z}}$$
-
-So, at a high level, the model is finding parameter values that make its mathematical approximation agree with the training observations as well as possible.
-
-> **Reality → data → mathematical representation → parameter estimation → approximation → prediction**
-
-This was the main thing I took away from the project.
+What I learned from this model
+The first thing I understood is that ML models basically depend on mathematical structure.
+If we use a different ML model, we are basically using a different mathematical structure. For example, we can have a Logistic Regression model, an HMM model, or different kinds of ML models. Underneath, everything is basically based on a mathematical structure.
+Every machine-learning model uses a different mathematical structure and a different process to get to the point of making a prediction.
 
 ---
 
