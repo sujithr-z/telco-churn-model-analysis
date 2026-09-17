@@ -22,29 +22,12 @@ No  → 0
 
 The dataset contains customer information such as:
 
-- `tenure`
-- `MonthlyCharges`
-- `TotalCharges`
-- `Contract`
-- `InternetService`
-- `PaymentMethod`
-- `OnlineSecurity`
-- `TechSupport`
-- `StreamingTV`
-- `SeniorCitizen`
-- and other customer/service attributes.
+<img width="682" height="692" alt="image" src="https://github.com/user-attachments/assets/9a42b20d-f0c8-47ba-9275-f528a04b0dbb" />
 
-The original dataset contains around 7,000 customers.
+cleaning process:
 
-After cleaning:
+<img width="1897" height="200" alt="image" src="https://github.com/user-attachments/assets/0cd0a347-9647-49be-bf07-424af69dc1f7" />
 
-```text
-Customers:       7,010
-Original features after removing customerID: 19
-Overall churn:   26.49%
-Churned:         1,857
-Not churned:     5,153
-```
 
 ---
 
