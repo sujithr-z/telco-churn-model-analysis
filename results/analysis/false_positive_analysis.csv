@@ -1,0 +1,112 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,actual_churn,predicted_churn,churn_probability,error_type,tenure_band,monthly_charges_band,total_charges_band
+Female,0,No,Yes,12,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,105.3,1275.65,0,1,0.695195006683545,False Positive,7-12 months,Very High ($90+),$500-$1500
+Male,1,Yes,No,28,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,105.8,2998.0,0,1,0.6371839967766465,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,12,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,84.6,1017.35,0,1,0.6219365145761949,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,No,No,24,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,104.15,2494.65,0,1,0.6828444551528097,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Male,0,Yes,Yes,1,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),69.95,69.95,0,1,0.5226768673680866,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,1,No,No,8,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,87.1,713.6,0,1,0.7335490681797955,False Positive,7-12 months,High ($70-$90),$500-$1500
+Male,1,Yes,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,74.3,74.3,0,1,0.7148307287130242,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,0,No,No,26,Yes,No,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,98.65,2537.0,0,1,0.5793666462793634,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Male,0,No,No,10,Yes,No,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),95.1,865.1,0,1,0.5647142747098085,False Positive,7-12 months,Very High ($90+),$500-$1500
+Female,0,No,No,25,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Mailed check,84.6,2088.05,0,1,0.5146260214606193,False Positive,25-48 months,High ($70-$90),$1500-$3500
+Male,0,No,No,6,Yes,No,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,78.95,494.95,0,1,0.5475431436608432,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,1,Yes,Yes,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,50.1,50.1,0,1,0.571013581235315,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,0,No,No,2,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,45.4,80.95,0,1,0.5068588116238797,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Male,0,No,No,14,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,76.45,1117.55,0,1,0.5239338319887926,False Positive,13-24 months,High ($70-$90),$500-$1500
+Male,0,No,No,22,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,83.05,1799.3,0,1,0.5359695602672663,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Female,0,Yes,No,2,Yes,No,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,80.15,194.55,0,1,0.5367963888641016,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,Yes,Yes,5,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,80.85,356.1,0,1,0.659797315521832,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,3,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,No,Electronic check,95.4,293.15,0,1,0.6765625424394565,False Positive,0-6 months,Very High ($90+),$0-$500
+Female,0,No,No,1,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,84.6,84.6,0,1,0.7946399326541337,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,0,No,No,24,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,89.55,2187.15,0,1,0.5464210234409537,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Female,0,Yes,No,2,Yes,No,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,90.35,190.5,0,1,0.5517662657332737,False Positive,0-6 months,Very High ($90+),$0-$500
+Male,0,Yes,No,14,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,82.65,1185.0,0,1,0.6211762141559178,False Positive,13-24 months,High ($70-$90),$500-$1500
+Male,1,Yes,No,16,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),85.05,1391.15,0,1,0.645557121078474,False Positive,13-24 months,High ($70-$90),$500-$1500
+Male,1,No,No,7,No,No phone service,DSL,No,Yes,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,44.4,265.8,0,1,0.5976046092694993,False Positive,7-12 months,Medium ($35-$70),$0-$500
+Female,0,Yes,Yes,10,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,85.95,858.6,0,1,0.5594865584609523,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,Yes,No,1,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,45.0,45.0,0,1,0.5079507586282241,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,1,Yes,No,3,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),74.6,239.05,0,1,0.6285412995683943,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,7,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,69.9,497.3,0,1,0.5401847190776586,False Positive,7-12 months,Medium ($35-$70),$0-$500
+Female,0,No,No,7,Yes,No,DSL,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,66.85,458.1,0,1,0.5642281085685704,False Positive,7-12 months,Medium ($35-$70),$0-$500
+Female,0,Yes,No,21,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,94.3,1948.35,0,1,0.6962694443425798,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,0,No,No,3,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,70.25,229.7,0,1,0.6885321425131414,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,33,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,107.55,3645.5,0,1,0.5581891916810163,False Positive,25-48 months,Very High ($90+),$3500+
+Female,0,No,No,3,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,70.15,194.2,0,1,0.6860357672421735,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,0,Yes,No,36,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),95.0,3440.25,0,1,0.5199848890476588,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Male,0,No,No,22,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,100.65,2415.95,0,1,0.6962978026216726,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Male,0,Yes,No,22,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),87.0,1850.65,0,1,0.5260129241840852,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Male,0,No,No,1,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,44.8,44.8,0,1,0.5209783774372613,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,1,Yes,No,2,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,69.3,153.8,0,1,0.7356263884402129,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,0,No,No,4,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,75.65,302.35,0,1,0.7233068593794115,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,22,No,No phone service,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,50.6,1073.3,0,1,0.5560642429479642,False Positive,13-24 months,Medium ($35-$70),$500-$1500
+Female,1,Yes,No,17,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,92.55,1614.7,0,1,0.7699186659405388,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,0,No,No,10,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,75.75,777.3,0,1,0.5678077723274028,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,1,No,No,2,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,44.3,89.3,0,1,0.5671743886140693,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Male,0,No,No,7,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,94.1,701.3,0,1,0.7915663845531089,False Positive,7-12 months,Very High ($90+),$500-$1500
+Male,0,No,No,19,Yes,Yes,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,84.75,1651.95,0,1,0.5386166524202528,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Male,0,No,No,7,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,96.2,639.7,0,1,0.7227530826795615,False Positive,7-12 months,Very High ($90+),$500-$1500
+Male,0,No,No,3,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,25.1,79.8,0,1,0.5674428811264703,False Positive,0-6 months,Low ($0-$35),$0-$500
+Male,0,No,No,14,No,No phone service,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,55.0,771.95,0,1,0.5860427347372416,False Positive,13-24 months,Medium ($35-$70),$500-$1500
+Female,1,No,No,46,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,104.45,4863.85,0,1,0.6057094208769835,False Positive,25-48 months,Very High ($90+),$3500+
+Female,0,Yes,No,19,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,96.8,1743.05,0,1,0.6706834798367792,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,1,No,No,30,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,104.1,3121.1,0,1,0.6987927694278753,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,15,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),94.0,1505.45,0,1,0.61711198341906,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,0,Yes,No,4,No,No phone service,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,29.05,129.6,0,1,0.5393263638495632,False Positive,0-6 months,Low ($0-$35),$0-$500
+Female,1,No,No,18,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,74.7,1294.6,0,1,0.5779768554508302,False Positive,13-24 months,High ($70-$90),$500-$1500
+Female,1,No,No,4,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,No,Electronic check,72.75,317.75,0,1,0.6246444221339338,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,1,No,No,45,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),93.9,4200.25,0,1,0.5154260240095623,False Positive,25-48 months,Very High ($90+),$3500+
+Female,0,Yes,No,34,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,100.45,3414.65,0,1,0.6334308198312664,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,1,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,25.25,25.25,0,1,0.591827338622088,False Positive,0-6 months,Low ($0-$35),$0-$500
+Female,0,No,No,13,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,85.95,1215.65,0,1,0.70014850561053,False Positive,13-24 months,High ($70-$90),$500-$1500
+Female,0,Yes,No,16,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),94.65,1461.15,0,1,0.576193365272749,False Positive,13-24 months,Very High ($90+),$500-$1500
+Male,1,No,No,1,Yes,No,Fiber optic,No,No,No,Yes,No,No,Month-to-month,No,Electronic check,74.7,74.7,0,1,0.6174756454099382,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,0,No,No,4,Yes,Yes,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,100.85,399.25,0,1,0.6586349788180422,False Positive,0-6 months,Very High ($90+),$0-$500
+Female,0,Yes,No,19,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,86.85,1564.4,0,1,0.6635615681547542,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Female,0,No,No,5,No,No phone service,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),50.95,229.4,0,1,0.5896268470539394,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Male,1,Yes,No,16,Yes,No,Fiber optic,No,No,Yes,Yes,No,Yes,Month-to-month,Yes,Electronic check,91.55,1540.05,0,1,0.6264798049255264,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,1,No,No,40,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,91.55,3673.6,0,1,0.5744275122545324,False Positive,25-48 months,Very High ($90+),$3500+
+Male,1,No,No,24,Yes,Yes,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,80.5,2088.45,0,1,0.6027379578859111,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Male,0,No,No,8,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,74.85,572.45,0,1,0.6920912557152259,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,No,No,15,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),83.2,1130.0,0,1,0.5415998598596359,False Positive,13-24 months,High ($70-$90),$500-$1500
+Female,0,Yes,No,2,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),70.4,154.8,0,1,0.5814624376444221,False Positive,0-6 months,High ($70-$90),$0-$500
+Female,1,Yes,No,30,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,90.05,2627.2,0,1,0.6106608083439506,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,26,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,80.7,2193.0,0,1,0.5656119209809543,False Positive,25-48 months,High ($70-$90),$1500-$3500
+Female,0,No,No,3,Yes,No,DSL,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,75.3,244.1,0,1,0.5039519132723255,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,1,Yes,Yes,11,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),75.2,775.3,0,1,0.537299471863054,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,No,No,2,Yes,No,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,91.15,168.5,0,1,0.6449414830051093,False Positive,0-6 months,Very High ($90+),$0-$500
+Female,0,No,No,24,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),88.95,2072.75,0,1,0.5432034517788941,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Male,0,Yes,No,18,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,73.15,1305.95,0,1,0.5965877133804083,False Positive,13-24 months,High ($70-$90),$500-$1500
+Male,1,No,No,4,Yes,No,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,75.35,273.4,0,1,0.5664033010096948,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,1,Yes,No,29,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,84.3,2357.75,0,1,0.6074792334601464,False Positive,25-48 months,High ($70-$90),$1500-$3500
+Female,1,No,No,17,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),82.65,1470.05,0,1,0.5891254535962905,False Positive,13-24 months,High ($70-$90),$500-$1500
+Female,0,No,No,11,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,75.25,888.65,0,1,0.5918209376131057,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,Yes,Yes,15,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),105.35,1559.25,0,1,0.5904690723761239,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Male,1,No,No,21,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,104.35,2271.85,0,1,0.7542769457755707,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,0,No,No,37,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,100.05,3810.55,0,1,0.6318215282467414,False Positive,25-48 months,Very High ($90+),$3500+
+Female,0,No,No,2,Yes,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,59.0,114.15,0,1,0.5437107318134344,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Male,0,No,No,6,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,69.1,435.0,0,1,0.6644879288404335,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,0,Yes,Yes,14,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,84.8,1203.9,0,1,0.6445442653293634,False Positive,13-24 months,High ($70-$90),$500-$1500
+Male,1,Yes,No,8,No,No phone service,DSL,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,43.35,371.4,0,1,0.5417047014321374,False Positive,7-12 months,Medium ($35-$70),$0-$500
+Female,0,No,No,23,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,93.5,2341.55,0,1,0.7077623503564258,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Male,0,Yes,Yes,9,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,Yes,Electronic check,90.35,767.9,0,1,0.5478962535791022,False Positive,7-12 months,Very High ($90+),$500-$1500
+Male,1,Yes,No,21,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,No,Bank transfer (automatic),86.55,1857.25,0,1,0.5138928603607191,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Female,0,No,No,13,No,No phone service,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,49.15,649.4,0,1,0.5727818699261487,False Positive,13-24 months,Medium ($35-$70),$500-$1500
+Female,1,No,No,20,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),80.7,1614.2,0,1,0.5105267197982015,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Female,0,No,No,8,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),80.0,624.6,0,1,0.6390963288974819,False Positive,7-12 months,High ($70-$90),$500-$1500
+Female,0,No,No,8,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,No,Electronic check,75.6,535.55,0,1,0.5225609459264082,False Positive,7-12 months,High ($70-$90),$500-$1500
+Male,0,Yes,Yes,11,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,90.6,1020.2,0,1,0.5762476972045906,False Positive,7-12 months,Very High ($90+),$500-$1500
+Female,0,No,No,29,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),100.55,2878.75,0,1,0.5131489719357603,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,21,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,90.05,1862.9,0,1,0.564104295453452,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Female,1,Yes,No,26,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),85.7,2067.0,0,1,0.5072850111042002,False Positive,25-48 months,High ($70-$90),$1500-$3500
+Female,0,No,No,47,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,106.35,4849.1,0,1,0.5301438763106873,False Positive,25-48 months,Very High ($90+),$3500+
+Male,1,Yes,No,23,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,86.8,1975.85,0,1,0.5805245315269307,False Positive,13-24 months,High ($70-$90),$1500-$3500
+Male,1,No,No,18,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,No,Month-to-month,No,Bank transfer (automatic),93.9,1743.9,0,1,0.5454004399251685,False Positive,13-24 months,Very High ($90+),$1500-$3500
+Male,0,No,No,12,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,81.45,912.0,0,1,0.6774892413090395,False Positive,7-12 months,High ($70-$90),$500-$1500
+Male,1,No,No,4,No,No phone service,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),50.95,207.35,0,1,0.6593433328909041,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,1,No,No,4,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,80.25,303.7,0,1,0.6963299358491261,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,0,No,No,1,Yes,No,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,75.5,75.5,0,1,0.5667427908071124,False Positive,0-6 months,High ($70-$90),$0-$500
+Male,0,No,No,11,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,72.9,818.45,0,1,0.5471732315399322,False Positive,7-12 months,High ($70-$90),$500-$1500
+Male,1,Yes,No,4,No,No phone service,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,29.9,118.25,0,1,0.6906119569901006,False Positive,0-6 months,Low ($0-$35),$0-$500
+Female,0,No,No,32,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,101.35,3334.9,0,1,0.6657458037117959,False Positive,25-48 months,Very High ($90+),$1500-$3500
+Female,0,No,No,6,No,No phone service,DSL,No,No,No,No,Yes,Yes,Month-to-month,No,Credit card (automatic),45.0,298.7,0,1,0.5290940714804078,False Positive,0-6 months,Medium ($35-$70),$0-$500
+Female,0,No,No,6,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,85.95,514.6,0,1,0.5561483066211268,False Positive,0-6 months,High ($70-$90),$500-$1500

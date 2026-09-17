@@ -1,0 +1,55 @@
+Feature,Segment,Total_Customers,Actual_Churners,Actual_NonChurners,TP,TN,FP,FN,FN_Rate_Pct,FP_Rate_Pct,Accuracy_Pct
+Contract,Month-to-month,771,333,438,199,328,110,134,40.24,25.11,68.35
+Contract,One year,296,29,267,0,266,1,29,100.0,0.37,89.86
+Contract,Two year,335,9,326,0,326,0,9,100.0,0.0,97.31
+InternetService,DSL,503,96,407,25,386,21,71,73.96,5.16,81.71
+InternetService,Fiber optic,602,253,349,174,259,90,79,31.23,25.79,71.93
+InternetService,No,297,22,275,0,275,0,22,100.0,0.0,92.59
+PaymentMethod,Bank transfer (automatic),295,51,244,12,232,12,39,76.47,4.92,82.71
+PaymentMethod,Credit card (automatic),325,46,279,12,267,12,34,73.91,4.3,85.85
+PaymentMethod,Electronic check,464,212,252,155,171,81,57,26.89,32.14,70.26
+PaymentMethod,Mailed check,318,62,256,20,250,6,42,67.74,2.34,84.91
+tenure_band,0-6 months,279,148,131,104,94,37,44,29.73,28.24,70.97
+tenure_band,7-12 months,131,44,87,30,66,21,14,31.82,24.14,73.28
+tenure_band,13-24 months,219,55,164,31,129,35,24,43.64,21.34,73.06
+tenure_band,25-48 months,331,78,253,33,235,18,45,57.69,7.11,80.97
+tenure_band,49+ months,442,46,396,1,396,0,45,97.83,0.0,89.82
+monthly_charges_band,Low ($0-$35),340,41,299,10,295,4,31,75.61,1.34,89.71
+monthly_charges_band,Medium ($35-$70),345,77,268,21,249,19,56,72.73,7.09,78.26
+monthly_charges_band,High ($70-$90),372,137,235,102,184,51,35,25.55,21.7,76.88
+monthly_charges_band,Very High ($90+),345,116,229,66,192,37,50,43.1,16.16,74.78
+total_charges_band,$0-$500,375,153,222,102,182,40,51,33.33,18.02,75.73
+total_charges_band,$500-$1500,339,86,253,51,222,31,35,40.7,12.25,80.53
+total_charges_band,$1500-$3500,317,77,240,39,206,34,38,49.35,14.17,77.29
+total_charges_band,$3500+,371,55,316,7,310,6,48,87.27,1.9,85.44
+SeniorCitizen,0,1181,274,907,130,829,78,144,52.55,8.6,81.2
+SeniorCitizen,1,221,97,124,69,91,33,28,28.87,26.61,72.4
+Partner,No,685,222,463,129,388,75,93,41.89,16.2,75.47
+Partner,Yes,717,149,568,70,532,36,79,53.02,6.34,83.96
+Dependents,No,972,300,672,179,570,102,121,40.33,15.18,77.06
+Dependents,Yes,430,71,359,20,350,9,51,71.83,2.51,86.05
+PhoneService,No,147,39,108,20,96,12,19,48.72,11.11,78.91
+PhoneService,Yes,1255,332,923,179,824,99,153,46.08,10.73,79.92
+MultipleLines,No,627,144,483,69,434,49,75,52.08,10.14,80.22
+MultipleLines,No phone service,147,39,108,20,96,12,19,48.72,11.11,78.91
+MultipleLines,Yes,628,188,440,110,390,50,78,41.49,11.36,79.62
+OnlineSecurity,No,698,289,409,189,306,103,100,34.6,25.18,70.92
+OnlineSecurity,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+OnlineSecurity,Yes,407,60,347,10,339,8,50,83.33,2.31,85.75
+OnlineBackup,No,603,238,365,153,288,77,85,35.71,21.1,73.13
+OnlineBackup,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+OnlineBackup,Yes,502,111,391,46,357,34,65,58.56,8.7,80.28
+DeviceProtection,No,627,254,373,153,298,75,101,39.76,20.11,71.93
+DeviceProtection,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+DeviceProtection,Yes,478,95,383,46,347,36,49,51.58,9.4,82.22
+TechSupport,No,704,298,406,189,307,99,109,36.58,24.38,70.45
+TechSupport,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+TechSupport,Yes,401,51,350,10,338,12,41,80.39,3.43,86.78
+StreamingTV,No,557,199,358,110,307,51,89,44.72,14.25,74.87
+StreamingTV,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+StreamingTV,Yes,548,150,398,89,338,60,61,40.67,15.08,77.92
+StreamingMovies,No,566,191,375,105,315,60,86,45.03,16.0,74.2
+StreamingMovies,No internet service,297,22,275,0,275,0,22,100.0,0.0,92.59
+StreamingMovies,Yes,539,158,381,94,330,51,64,40.51,13.39,78.66
+PaperlessBilling,No,563,87,476,25,452,24,62,71.26,5.04,84.72
+PaperlessBilling,Yes,839,284,555,174,468,87,110,38.73,15.68,76.52
