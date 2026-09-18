@@ -154,16 +154,8 @@ ACM-SIG-AI-TELCO-CHURN/
 │   │   └── predict.py
 │   │
 │   ├── evaluation/
-│   │   ├── metrics.py
-│   │   └── analysis.py
-│   │
-│   └── from_scratch/
-│       └── logistic_regression.py
-│
-├── pipelines/
-│   ├── data_pipeline.py
-│   ├── training_pipeline.py
-│   └── evaluation_pipeline.py
+│      ├── metrics.py
+│      └── analysis.py
 │
 ├── models/
 │   ├── logistic_regression.pkl
