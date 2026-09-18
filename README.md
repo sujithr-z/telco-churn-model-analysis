@@ -224,6 +224,7 @@ ACM-SIG-AI-TELCO-CHURN/
 
 ---
 
+
 ## 14. Main Takeaway
 
 This project started as a churn-classification task, but the main thing I took from it was the underlying idea of machine learning:
@@ -235,3 +236,13 @@ The model is not reality.
 It is an approximation of reality.
 
 The quality of that approximation depends on the data, the representation, the mathematical structure, the parameters, and how honestly we evaluate it.
+
+## 15. if i have chance to work another week on this project :
+
+1) i want to deep understand ROC-AUC ( Reciver operation characters - area under the curve) and PR-AUC (precision-recall Area under the curve).
+2) then, logicestic regression model is working fine, but maybe i will exlpore other model and work on it
+3) i also want to work data filteration part. i presonally belive if we fine the data, we can make the model more finer
+4) if i have another week, i'll spend my time on learning the ground princple's and make the model preform better
+ 
+
+
